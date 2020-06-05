@@ -1,4 +1,5 @@
 FROM node:9-alpine
+#FROM node:10-alpine
 
 COPY ./src /src
 RUN cd /src && npm install
